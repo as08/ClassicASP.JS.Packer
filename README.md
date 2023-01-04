@@ -3,7 +3,7 @@ This is Dean Edwards /packer/ (a JavaScript compressor) written in JScript and c
 
 JScript is Microsoft's legacy dialect of the ECMAScript standard; it should not be confused with JavaScript. JScript can run server-side in .asp pages and is compatible with .asp pages written in VBScript. JScript is similar to JavaScript, but much more limited. As a result, this version of Dean Edwards /packer/ is v1.1 (the latest and final version is 3.0).
 
-Not only is this is a very useful JavaScript compressor, it's also a great JavaScript obfuscator, meaning it can take JavaScript code and make it very difficult to read. This can help prevent web scraping data. For example, if you've paid for geographical data and wish to implement it in a project such as OpenStreetMap, you need to use JavaScript, but ideally you don't want the raw data readable in the source code.
+Not only is this is a very useful JavaScript compressor, it's also a great JavaScript obfuscator, meaning it can take JavaScript code and make it very difficult to read. This can help prevent web scraping data. For example, if you've paid for geographical data and wish to implement it in a project such as OpenStreetMap, you need to use JavaScript, but ideally you don't want the raw data easily readable in the source code.
 
 Below I will demonstrate this with an OpenStreetMap example that has longitude/latitude data for museums in Manhattan.
 
