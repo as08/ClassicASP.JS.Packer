@@ -12,29 +12,29 @@
 		
 		To use, simply pass the script to the "Pack" function:
 		
-		>	Response.Write Pack([script],[encoding],[fastDecode],[specialChars])
+		Response.Write Pack([script],[encoding],[fastDecode],[specialChars])
 		
 		There are four parameters to pass:
 		
-			1. script:			The JavaScript to pack
-								Type: String
+			1. script:		The JavaScript to pack
+						Type: String
 														
 			2. encoding:		level of encoding
-								Type: Int
-								Examples: 0 (None), 10 (Numeric), 62 (Normal), 95 (High ASCII)
-								Default: 62
+						Type: Int
+						Examples: 0 (None), 10 (Numeric), 62 (Normal), 95 (High ASCII)
+						Default: 62
 							
 			3. fastDecode:		Include the fast decoder in the packed result
-								Type: Boolean
-								Default: True
+						Type: Boolean
+						Default: True
 								
 			4. specialChars		If you have flagged your private and local variables in the script
-								Type: Boolean
-								Default: False
+						Type: Boolean
+						Default: False
 							
 		Recommended settings:
 		
-		>	Response.Write Pack("JS String, or loaded JS file",62,True,False)
+		Response.Write Pack("JS String, or loaded JS file",62,True,False)
 		
 	*/
 
