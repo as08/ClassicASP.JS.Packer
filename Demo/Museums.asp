@@ -93,22 +93,22 @@
   Next
 
   JavaScript = VBlf & VBlf &_
-  "	var atms = [" & MuseumsArrStr & "];" & VBlf &_
-  "	var atmIcon = L.icon({" & VBlf &_
+  "	var museums = [" & MuseumsArrStr & "];" & VBlf &_
+  "	var museumIcon = L.icon({" & VBlf &_
   "		iconUrl: ""https://i.ibb.co/JcNNZ1t/museum.png""," & VBlf &_
   "		iconSize: [35, 48]" & VBlf &_
   "	});" & VBlf &_
   "	var pins = L.layerGroup();" & VBlf &_
   "	var bounds = [];" & VBlf &_
-  "	for (var i = 0; i < atms.length; i++) {" & VBlf &_
+  "	for (var i = 0; i < museums.length; i++) {" & VBlf &_
   "		L.marker(" & VBlf &_
-  "			[atms[i].lat, atms[i].lng], {" & VBlf &_
-  "				icon: atmIcon" & VBlf &_
+  "			[museums[i].lat, museums[i].lng], {" & VBlf &_
+  "				icon: museumIcon" & VBlf &_
   "			}" & VBlf &_
-  "		).bindPopup(""<h3>"" + atms[i].title + ""</h3>"", {" & VBlf &_
+  "		).bindPopup(""<h3>"" + museums[i].title + ""</h3>"", {" & VBlf &_
   "			closeButton: !1" & VBlf &_
   "		}).addTo(pins);" & VBlf &_
-  "		bounds.push([atms[i].lat,atms[i].lng])" & VBlf &_
+  "		bounds.push([museums[i].lat,museums[i].lng])" & VBlf &_
   "	}" & VBlf &_
   "	L.map(""map"",{" & VBlf &_
   "		center: [" & ManhattanLatLng & "]," & VBlf &_
