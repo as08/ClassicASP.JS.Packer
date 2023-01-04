@@ -13,7 +13,7 @@ Below I will demonstrate this with an OpenStreetMap example that uses longitude/
 
 First, let's look at the uncompressed JavaScript output.
 
-**NOTE:** I'm using a 2D array as appose to retrieving data from a database backend.
+**NOTE:** I'm using a 2D array for demonstration purposes as appose to retrieving data from a database backend.
 
     <%@Language="VBScript" CodePage="65001"%>
     <%
