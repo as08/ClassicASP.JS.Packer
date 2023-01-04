@@ -109,7 +109,7 @@ First, let's look at the uncompressed JavaScript output.
       Next
 
       JavaScript = VBlf & VBlf &_
-      "	var atms = [" & MuseumsArrStr & "];" & VBlf &_
+      "	var museums = [" & MuseumsArrStr & "];" & VBlf &_
       "	var museumIcon = L.icon({" & VBlf &_
       "		iconUrl: ""https://i.ibb.co/JcNNZ1t/museum.png""," & VBlf &_
       "		iconSize: [35, 48]" & VBlf &_
