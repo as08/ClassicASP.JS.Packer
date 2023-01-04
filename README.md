@@ -7,6 +7,8 @@ Not only is this is a very useful JavaScript compressor, it's also a great JavaS
 
 Below I will demonstrate this with an OpenStreetMap example that uses longitude/latitude data to pin museums in Manhattan.
 
+![museums in Manhattan](https://i.ibb.co/ZHn59P0/museum.jpg)
+
 ## OpenStreetMap Example
 
 First, let's look at the uncompressed JavaScript output.
