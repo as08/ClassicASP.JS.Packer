@@ -213,6 +213,8 @@ The HTML output:
     
 Now let's include "packer.asp", and pack the JavaScript using the default configuration:
 
+**NOTE:** A detailed explanation of the "Pack" function parameters can be found in "packer.asp".
+
     <%@Language="VBScript" CodePage="65001"%>
     <!--#include file = "packer.asp" -->
     <%
